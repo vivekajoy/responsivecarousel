@@ -1,0 +1,77 @@
+.carousel-caption{
+    margin-bottom: 100px;
+    margin-right: 400px;
+    text-align: justify;
+    width: 60%;
+
+    /* width: 810px; */
+   
+}
+.bnm{
+    background-color: rgb(120, 9, 223);
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    border: none;
+
+}
+.bnm:hover{
+    background-color: rgb(206, 152, 206);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3x;
+}
+@media(max-width:720px)
+{
+    h1{
+        width: 80%;
+        text-align: justify;
+        font-size: 20px;
+        /* margin-right: 200px; */
+    }
+    p{
+        font-size: 15px;
+        /* margin-right: 200px; */
+        width: 80%;
+
+    }
+    .bnm{
+        padding: 0px;
+    }
+    .carousel-caption{
+        width: 80%;
+        text-align: justify;
+        
+    }
+
+}
+.modal-body{
+    /* width: 600px; */
+    height: 580px;
+}
+.sub{
+    background-color: blueviolet;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+.imh{
+    width: 100%;
+    margin-bottom: 100px;
+}
+@media(max-width:720px)
+{
+    h1{
+        width: 100%;
+        text-align: justify;
+    
+    }
+    p{
+        width: 100%;
+    
+    }
+    .abc{
+        background-color: rgb(183, 152, 211);
+    }
+}
